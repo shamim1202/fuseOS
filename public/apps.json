@@ -1,0 +1,154 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1551817958-20204c6e8a88",
+    "title": "ShopEasy",
+    "companyName": "EcomLabs",
+    "id": 108,
+    "description": "One-stop shopping app for deals, fashion, and gadgets from top brands.",
+    "size": 75,
+    "reviews": 8300,
+    "ratingAvg": 4.6,
+    "downloads": 5800000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 370 },
+      { "name": "3 star", "count": 650 },
+      { "name": "4 star", "count": 1750 },
+      { "name": "5 star", "count": 5250 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1603791452906-bb6c1fbc05c9",
+    "title": "RideNow",
+    "companyName": "UrbanMove",
+    "id": 109,
+    "description": "Book rides instantly, track your driver, and enjoy seamless city travel.",
+    "size": 78,
+    "reviews": 4920,
+    "ratingAvg": 4.3,
+    "downloads": 4100000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 2280 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1590608897129-79da98d1592e",
+    "title": "Streamly",
+    "companyName": "VisionCloud",
+    "id": 110,
+    "description": "Watch movies and shows online with personalized recommendations and offline download support.",
+    "size": 120,
+    "reviews": 13800,
+    "ratingAvg": 4.8,
+    "downloads": 9400000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 430 },
+      { "name": "3 star", "count": 780 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 9870 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1625314864229-18c604c3e2de",
+    "title": "MindEase",
+    "companyName": "CalmSpace",
+    "id": 111,
+    "description": "Meditation and relaxation app featuring guided audio, sleep sounds, and mood tracking.",
+    "size": 83,
+    "reviews": 3620,
+    "ratingAvg": 4.5,
+    "downloads": 2600000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 430 },
+      { "name": "4 star", "count": 870 },
+      { "name": "5 star", "count": 1960 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1580910051073-bdf3e00b6e1f",
+    "title": "Eventify",
+    "companyName": "SocialHub",
+    "id": 112,
+    "description": "Discover events near you and book tickets instantly with social group support.",
+    "size": 61,
+    "reviews": 1890,
+    "ratingAvg": 4.3,
+    "downloads": 970000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 570 },
+      { "name": "5 star", "count": 880 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1612832021053-0e9ce7e9fa6f",
+    "title": "HomeEase",
+    "companyName": "SmartHive",
+    "id": 113,
+    "description": "Smart home app that connects lights, locks, thermostats, and appliances in one dashboard.",
+    "size": 86,
+    "reviews": 2540,
+    "ratingAvg": 4.4,
+    "downloads": 1700000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 740 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3",
+    "title": "CryptoWatch",
+    "companyName": "BlockStream",
+    "id": 114,
+    "description": "Real-time cryptocurrency tracking and portfolio management with live alerts.",
+    "size": 79,
+    "reviews": 6300,
+    "ratingAvg": 4.6,
+    "downloads": 3800000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 480 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 3990 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692",
+    "title": "Taskly",
+    "companyName": "NextGen Tools",
+    "id": 115,
+    "description": "A collaborative to-do and project management app for teams and individuals.",
+    "size": 58,
+    "reviews": 5200,
+    "ratingAvg": 4.5,
+    "downloads": 2900000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 480 },
+      { "name": "4 star", "count": 1220 },
+      { "name": "5 star", "count": 3130 }
+    ]
+  }
+]
