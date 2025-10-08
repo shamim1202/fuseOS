@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import TrendingApp from "../TrendingApp/TrendingApp";
 
 const TrendingApps = ({ appsData }) => {
@@ -18,7 +19,9 @@ const TrendingApps = ({ appsData }) => {
         ))}
       </div>
 
-      <button className="btn btn-primary">Show All</button>
+      <Link to="/apps" className="flex items-center justify-center">
+        <button className="btn btn-primary">Show All</button>
+      </Link>
     </div>
   );
 };

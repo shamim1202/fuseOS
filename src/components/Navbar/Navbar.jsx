@@ -5,15 +5,17 @@ import logo from "../../assets/fuseOS-logo.png";
 const Navbar = () => {
   const links = (
     <>
-      <li>
-        <a>Home</a>
-      </li>
-      <li>
-        <a>Apps</a>
-      </li>
-      <li>
-        <a>Installation</a>
-      </li>
+      <Link to="/">
+        <li>Home</li>
+      </Link>
+      <Link to="/apps">
+        <li><button className="btn btn-accent">All Apps</button></li>
+      </Link>
+      <Link to="/installation">
+        <li>
+          <a>Installation</a>
+        </li>
+      </Link>
     </>
   );
 
@@ -45,10 +47,7 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <Link
-          to="/"
-          className="flex flex-row items-center justify-center"
-        >
+        <Link to="/" className="flex flex-row items-center justify-center">
           <img className="w-10 md:w-14" src={logo} alt="" srcset="" />
           <span className="md:text-xl font-bold bg-linear-to-r from-[#353BA2] to-[#8AD63F] bg-clip-text text-transparent">
             fuseOS
