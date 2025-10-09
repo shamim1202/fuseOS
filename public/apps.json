@@ -1,106 +1,11 @@
 [
   {
-    "image": "https://i.ibb.co.com/TDHP5xNC/ChatBox.png",
-    "title": "Chat Box",
-    "companyName": "Talkify Inc.",
-    "id": 1,
-    "description": "Fast and secure messaging app with voice and video calls for personal and business communication.",
-    "size": 64,
-    "reviews": 8420,
-    "ratingAvg": 4.6,
-    "downloads": 5200000,
-    "platforms": ["Android", "iOS"],
-    "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 420 },
-      { "name": "3 star", "count": 820 },
-      { "name": "4 star", "count": 2100 },
-      { "name": "5 star", "count": 4790 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/7Jx0dYH4/Travel-Now.png",
-    "title": "Travel Now",
-    "companyName": "Nomad Labs",
-    "id": 2,
-    "description": "Discover destinations, book flights, and manage itineraries from one smart travel app.",
-    "size": 92,
-    "reviews": 7320,
-    "ratingAvg": 4.7,
-    "downloads": 6100000,
-    "platforms": ["Android", "iOS"],
-    "ratings": [
-      { "name": "1 star", "count": 250 },
-      { "name": "2 star", "count": 300 },
-      { "name": "3 star", "count": 600 },
-      { "name": "4 star", "count": 1700 },
-      { "name": "5 star", "count": 4470 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/RTxnKwJF/Health-Sync.png",
-    "title": "Health Sync",
-    "companyName": "Well Track",
-    "id": 3,
-    "description": "Connect your smartwatch and track fitness, sleep, and nutrition insights across devices.",
-    "size": 81,
-    "reviews": 4120,
-    "ratingAvg": 4.5,
-    "downloads": 3300000,
-    "platforms": ["Android", "iOS"],
-    "ratings": [
-      { "name": "1 star", "count": 180 },
-      { "name": "2 star", "count": 230 },
-      { "name": "3 star", "count": 460 },
-      { "name": "4 star", "count": 970 },
-      { "name": "5 star", "count": 2280 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/twBh1xJH/FinWise.png",
-    "title": "Fin Wise",
-    "companyName": "Core Finance",
-    "id": 4,
-    "description": "Manage your money with smart budgeting, expense tracking, and crypto monitoring.",
-    "size": 70,
-    "reviews": 6890,
-    "ratingAvg": 4.6,
-    "downloads": 5400000,
-    "platforms": ["Android", "iOS"],
-    "ratings": [
-      { "name": "1 star", "count": 270 },
-      { "name": "2 star", "count": 330 },
-      { "name": "3 star", "count": 590 },
-      { "name": "4 star", "count": 1760 },
-      { "name": "5 star", "count": 3940 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/0pn9S6WR/FoodMate.png",
-    "title": "Food Mate",
-    "companyName": "Taste Cloud",
-    "id": 5,
-    "description": "Find nearby restaurants, explore menus, and order food with instant delivery tracking.",
-    "size": 68,
-    "reviews": 10300,
-    "ratingAvg": 4.8,
-    "downloads": 7200000,
-    "platforms": ["Android", "iOS"],
-    "ratings": [
-      { "name": "1 star", "count": 200 },
-      { "name": "2 star", "count": 280 },
-      { "name": "3 star", "count": 620 },
-      { "name": "4 star", "count": 2400 },
-      { "name": "5 star", "count": 6800 }
-    ]
-  },
-  {
     "image": "https://i.ibb.co.com/609ZCNCJ/Learnify.png",
     "title": "Learnify",
     "companyName": "EduVerse",
     "id": 6,
-    "description": "Interactive learning app with online courses and certifications from global universities.",
-    "size": 95,
+    "description": "Learnify makes learning fun and accessible for everyone. Explore thousands of online courses, from coding and design to business and personal growth. Each course includes interactive lessons, quizzes, and certificates that help you track your progress. Whether you’re a student or a professional, Learnify offers expert-taught content from top universities and creators. You can download lessons for offline study, join discussions, and learn at your own pace. With a clean interface and smart recommendations, Learnify keeps you motivated and helps you build new skills every day—all from the comfort of your phone or tablet.",
+    "size": 154000000,
     "reviews": 5980,
     "ratingAvg": 4.7,
     "downloads": 4200000,
@@ -118,8 +23,8 @@
     "title": "Photo Snap",
     "companyName": "Vision Works",
     "id": 7,
-    "description": "Edit, organize, and share your photos with advanced filters and AI background removal.",
-    "size": 87,
+    "description": "Photo Snap is the all-in-one photo editor that helps you make your pictures pop. Use professional tools to enhance brightness, contrast, and color balance in just a few taps. Apply creative filters, remove backgrounds, or retouch portraits with AI precision. The app makes photo editing simple, whether you’re touching up a selfie or creating content for social media. Save and organize your photos in custom albums, then share directly to your favorite platforms. With Photo Snap, even beginners can create professional-looking photos quickly and easily—no expensive software or experience required.",
+    "size": 132000000,
     "reviews": 4570,
     "ratingAvg": 4.4,
     "downloads": 2700000,
@@ -137,8 +42,8 @@
     "title": "Shop Easy",
     "companyName": "EcomLabs",
     "id": 8,
-    "description": "One-stop shopping app for deals, fashion, and gadgets from top brands.",
-    "size": 75,
+    "description": "Shop Easy brings the joy of online shopping right to your fingertips. Browse a huge range of products from clothing and accessories to gadgets and home goods—all from trusted brands. Enjoy secure payments, fast delivery, and exclusive daily deals that help you save more. You can track your orders in real time and chat directly with sellers for a smooth shopping experience. Personalized recommendations make it easy to find exactly what you love, and the wishlist feature helps you plan your next purchase. Shop Easy makes every shopping trip fast, simple, and fun.",
+    "size": 145000000,
     "reviews": 8300,
     "ratingAvg": 4.6,
     "downloads": 5800000,
@@ -149,6 +54,101 @@
       { "name": "3 star", "count": 650 },
       { "name": "4 star", "count": 1750 },
       { "name": "5 star", "count": 5250 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ksZ0cJsN/Urban-Move.png",
+    "title": "Ride Now",
+    "companyName": "Urban Move",
+    "id": 9,
+    "description": "Ride Now makes getting around your city quick and easy. Request a ride with just one tap and reach your destination safely with verified drivers. The app gives you real-time tracking, transparent pricing, and multiple payment options for convenience. Whether you’re heading to work, a party, or the airport, Ride Now helps you travel without stress. You can also share your ride details with friends for extra safety. With 24/7 support and reliable drivers, Ride Now ensures that you get where you need to be—comfortably and affordably—every single time.",
+    "size": 124000000,
+    "reviews": 4920,
+    "ratingAvg": 4.3,
+    "downloads": 4100000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 2280 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ynj3gnth/Streamly.png",
+    "title": "Streamly",
+    "companyName": "Vision Cloud",
+    "id": 10,
+    "description": "Streamly lets you enjoy your favorite movies, shows, and web series anytime, anywhere. Discover trending titles and explore recommendations based on what you love. Watch in HD, create watchlists, and even download episodes to enjoy offline. With an intuitive interface and fast streaming servers, Streamly ensures smooth entertainment without buffering. Whether you’re into thrillers, comedies, or documentaries, there’s something for everyone. The app keeps your experience ad-free for uninterrupted enjoyment. It’s like having a personal cinema in your pocket—perfect for relaxing after a long day or binge-watching over the weekend.",
+    "size": 172000000,
+    "reviews": 13800,
+    "ratingAvg": 4.8,
+    "downloads": 9400000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 430 },
+      { "name": "3 star", "count": 780 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 9870 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/v6WdFtbB/MindEase.jpg",
+    "title": "Mind Ease",
+    "companyName": "Calm Space",
+    "id": 11,
+    "description": "Mind Ease helps you slow down, relax, and find peace of mind through guided meditation and mindfulness exercises. The app offers soothing audio tracks, breathing sessions, and nature sounds to calm your thoughts and improve sleep. You can track your mood, set daily reminders, and build a healthy routine that fits your lifestyle. Whether you’re new to meditation or a long-time practitioner, Mind Ease provides an easy way to unwind and focus on your well-being. Take a few minutes each day to recharge your mind and feel more balanced with Mind Ease.",
+    "size": 98000000,
+    "reviews": 3620,
+    "ratingAvg": 4.5,
+    "downloads": 2600000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 430 },
+      { "name": "4 star", "count": 870 },
+      { "name": "5 star", "count": 1960 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9HRNJw05/Eventify.png",
+    "title": "Eventify",
+    "companyName": "Social Hub",
+    "id": 12,
+    "description": "Eventify is the ultimate event companion that helps you find concerts, festivals, and meetups happening near you. Discover trending events, follow your favorite artists, and book tickets instantly from the app. You can also connect with friends, see who’s attending, and share your plans directly on social media. Eventify sends personalized recommendations so you never miss out on fun things happening in your city. With secure ticketing, event reminders, and easy check-in options, Eventify makes going out with friends simple, exciting, and memorable every single time.",
+    "size": 87000000,
+    "reviews": 1890,
+    "ratingAvg": 4.3,
+    "downloads": 970000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 570 },
+      { "name": "5 star", "count": 880 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zWkS6XXF/HomeEase.png",
+    "title": "Home Ease",
+    "companyName": "Smart Hive",
+    "id": 13,
+    "description": "Home Ease connects all your smart home devices into one easy-to-use app. Control your lights, locks, thermostat, and appliances from anywhere with just a tap. Set routines, create schedules, and monitor your home in real time for extra safety and comfort. The app also works with voice assistants like Alexa and Google Home for hands-free convenience. Whether you’re at work or on vacation, Home Ease gives you peace of mind knowing everything is under control. It’s the smart, simple way to make your home more connected and energy-efficient.",
+    "size": 99000000,
+    "reviews": 2540,
+    "ratingAvg": 4.4,
+    "downloads": 1700000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 740 },
+      { "name": "5 star", "count": 1200 }
     ]
   }
 ]

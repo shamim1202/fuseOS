@@ -6,7 +6,7 @@ import { formatDownloads } from "../../Utilities/ConvertDownload";
 const TrendingApp = ({ app }) => {
   const {id, image, title, ratingAvg, downloads} = app
   return (
-    <Link to={`apps_details/${id}`}>
+    <Link to={`/apps_details/${id}`}>
       <div className="bg-white md:p-2 rounded shadow-md">
       <figure>
         <img

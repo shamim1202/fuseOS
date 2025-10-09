@@ -18,6 +18,7 @@ const AllApps = () => {
         <h5 className="text-sm md:text-base font-bold text-[#001931]">
           {`(${appsData.length})`} Apps Found
         </h5>
+
         {/* Search Input */}
         <label className="input input-sm bg-transparent text-xs md:text-sm">
           <svg
@@ -38,6 +39,7 @@ const AllApps = () => {
           </svg>
           <input type="search" required placeholder="Search Apps" />
         </label>
+        
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4">
