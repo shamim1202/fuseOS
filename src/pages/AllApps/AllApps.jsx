@@ -40,7 +40,7 @@ const AllApps = () => {
         </label>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 md:gap-2">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4">
         {appsData.map((app) => (
           <TrendingApp key={app.id} app={app}></TrendingApp>
         ))}

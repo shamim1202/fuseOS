@@ -1,7 +1,7 @@
 [
   {
-    "image": "https://images.unsplash.com/photo-1556157382-97eda2d62296",
-    "title": "ChatBox",
+    "image": "https://i.ibb.co.com/TDHP5xNC/ChatBox.png",
+    "title": "Chat Box",
     "companyName": "Talkify Inc.",
     "id": 1,
     "description": "Fast and secure messaging app with voice and video calls for personal and business communication.",
@@ -19,8 +19,8 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1611078489935-0cb964de46d1",
-    "title": "TravelNow",
+    "image": "https://i.ibb.co.com/7Jx0dYH4/Travel-Now.png",
+    "title": "Travel Now",
     "companyName": "Nomad Labs",
     "id": 2,
     "description": "Discover destinations, book flights, and manage itineraries from one smart travel app.",
@@ -38,9 +38,9 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1596568357354-f26c8b0a1e0f",
-    "title": "HealthSync",
-    "companyName": "WellTrack",
+    "image": "https://i.ibb.co.com/RTxnKwJF/Health-Sync.png",
+    "title": "Health Sync",
+    "companyName": "Well Track",
     "id": 3,
     "description": "Connect your smartwatch and track fitness, sleep, and nutrition insights across devices.",
     "size": 81,
@@ -57,9 +57,9 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f",
-    "title": "FinWise",
-    "companyName": "CoreFinance",
+    "image": "https://i.ibb.co.com/twBh1xJH/FinWise.png",
+    "title": "Fin Wise",
+    "companyName": "Core Finance",
     "id": 4,
     "description": "Manage your money with smart budgeting, expense tracking, and crypto monitoring.",
     "size": 70,
@@ -76,9 +76,9 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1525186402429-b4ff38bedbec",
-    "title": "FoodMate",
-    "companyName": "TasteCloud",
+    "image": "https://i.ibb.co.com/0pn9S6WR/FoodMate.png",
+    "title": "Food Mate",
+    "companyName": "Taste Cloud",
     "id": 5,
     "description": "Find nearby restaurants, explore menus, and order food with instant delivery tracking.",
     "size": 68,
@@ -95,7 +95,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1587440871875-191322ee64b0",
+    "image": "https://i.ibb.co.com/609ZCNCJ/Learnify.png",
     "title": "Learnify",
     "companyName": "EduVerse",
     "id": 6,
@@ -114,9 +114,9 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1612831662375-295c1003d3b7",
-    "title": "PhotoSnap",
-    "companyName": "VisionWorks",
+    "image": "https://i.ibb.co.com/Rk0YVM7z/Photo-Snap.png",
+    "title": "Photo Snap",
+    "companyName": "Vision Works",
     "id": 7,
     "description": "Edit, organize, and share your photos with advanced filters and AI background removal.",
     "size": 87,
@@ -133,8 +133,8 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1551817958-20204c6e8a88",
-    "title": "ShopEasy",
+    "image": "https://i.ibb.co.com/MkHTMPvW/ShopEasy.png",
+    "title": "Shop Easy",
     "companyName": "EcomLabs",
     "id": 8,
     "description": "One-stop shopping app for deals, fashion, and gadgets from top brands.",
@@ -152,9 +152,9 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1603791452906-bb6c1fbc05c9",
-    "title": "RideNow",
-    "companyName": "UrbanMove",
+    "image": "https://i.ibb.co.com/ksZ0cJsN/Urban-Move.png",
+    "title": "Ride Now",
+    "companyName": "Urban Move",
     "id": 9,
     "description": "Book rides instantly, track your driver, and enjoy seamless city travel.",
     "size": 78,
@@ -171,9 +171,9 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1590608897129-79da98d1592e",
+    "image": "https://i.ibb.co.com/ynj3gnth/Streamly.png",
     "title": "Streamly",
-    "companyName": "VisionCloud",
+    "companyName": "Vision Cloud",
     "id": 10,
     "description": "Watch movies and shows online with personalized recommendations and offline download support.",
     "size": 120,
@@ -190,9 +190,9 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1625314864229-18c604c3e2de",
-    "title": "MindEase",
-    "companyName": "CalmSpace",
+    "image": "https://i.ibb.co.com/v6WdFtbB/MindEase.jpg",
+    "title": "Mind Ease",
+    "companyName": "Calm Space",
     "id": 11,
     "description": "Meditation and relaxation app featuring guided audio, sleep sounds, and mood tracking.",
     "size": 83,
@@ -209,9 +209,9 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1580910051073-bdf3e00b6e1f",
+    "image": "https://i.ibb.co.com/9HRNJw05/Eventify.png",
     "title": "Eventify",
-    "companyName": "SocialHub",
+    "companyName": "Social Hub",
     "id": 12,
     "description": "Discover events near you and book tickets instantly with social group support.",
     "size": 61,
@@ -228,9 +228,9 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1612832021053-0e9ce7e9fa6f",
-    "title": "HomeEase",
-    "companyName": "SmartHive",
+    "image": "https://i.ibb.co.com/zWkS6XXF/HomeEase.png",
+    "title": "Home Ease",
+    "companyName": "Smart Hive",
     "id": 13,
     "description": "Smart home app that connects lights, locks, thermostats, and appliances in one dashboard.",
     "size": 86,
@@ -247,9 +247,9 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3",
-    "title": "CryptoWatch",
-    "companyName": "BlockStream",
+    "image": "https://i.ibb.co.com/jZsXs7nw/Crypto-Watch.png",
+    "title": "Crypto Watch",
+    "companyName": "Block Stream",
     "id": 14,
     "description": "Real-time cryptocurrency tracking and portfolio management with live alerts.",
     "size": 79,
@@ -266,7 +266,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692",
+    "image": "https://i.ibb.co.com/LXBMB8mV/Taskly.png",
     "title": "Taskly",
     "companyName": "NextGen Tools",
     "id": 15,

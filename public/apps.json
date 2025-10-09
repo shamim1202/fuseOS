@@ -1,9 +1,142 @@
 [
   {
-    "image": "https://images.unsplash.com/photo-1551817958-20204c6e8a88",
-    "title": "ShopEasy",
+    "image": "https://i.ibb.co.com/TDHP5xNC/ChatBox.png",
+    "title": "Chat Box",
+    "companyName": "Talkify Inc.",
+    "id": 1,
+    "description": "Fast and secure messaging app with voice and video calls for personal and business communication.",
+    "size": 64,
+    "reviews": 8420,
+    "ratingAvg": 4.6,
+    "downloads": 5200000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 820 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 4790 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7Jx0dYH4/Travel-Now.png",
+    "title": "Travel Now",
+    "companyName": "Nomad Labs",
+    "id": 2,
+    "description": "Discover destinations, book flights, and manage itineraries from one smart travel app.",
+    "size": 92,
+    "reviews": 7320,
+    "ratingAvg": 4.7,
+    "downloads": 6100000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 4470 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/RTxnKwJF/Health-Sync.png",
+    "title": "Health Sync",
+    "companyName": "Well Track",
+    "id": 3,
+    "description": "Connect your smartwatch and track fitness, sleep, and nutrition insights across devices.",
+    "size": 81,
+    "reviews": 4120,
+    "ratingAvg": 4.5,
+    "downloads": 3300000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 230 },
+      { "name": "3 star", "count": 460 },
+      { "name": "4 star", "count": 970 },
+      { "name": "5 star", "count": 2280 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/twBh1xJH/FinWise.png",
+    "title": "Fin Wise",
+    "companyName": "Core Finance",
+    "id": 4,
+    "description": "Manage your money with smart budgeting, expense tracking, and crypto monitoring.",
+    "size": 70,
+    "reviews": 6890,
+    "ratingAvg": 4.6,
+    "downloads": 5400000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 270 },
+      { "name": "2 star", "count": 330 },
+      { "name": "3 star", "count": 590 },
+      { "name": "4 star", "count": 1760 },
+      { "name": "5 star", "count": 3940 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0pn9S6WR/FoodMate.png",
+    "title": "Food Mate",
+    "companyName": "Taste Cloud",
+    "id": 5,
+    "description": "Find nearby restaurants, explore menus, and order food with instant delivery tracking.",
+    "size": 68,
+    "reviews": 10300,
+    "ratingAvg": 4.8,
+    "downloads": 7200000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 620 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 6800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/609ZCNCJ/Learnify.png",
+    "title": "Learnify",
+    "companyName": "EduVerse",
+    "id": 6,
+    "description": "Interactive learning app with online courses and certifications from global universities.",
+    "size": 95,
+    "reviews": 5980,
+    "ratingAvg": 4.7,
+    "downloads": 4200000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 3530 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Rk0YVM7z/Photo-Snap.png",
+    "title": "Photo Snap",
+    "companyName": "Vision Works",
+    "id": 7,
+    "description": "Edit, organize, and share your photos with advanced filters and AI background removal.",
+    "size": 87,
+    "reviews": 4570,
+    "ratingAvg": 4.4,
+    "downloads": 2700000,
+    "platforms": ["Android", "iOS"],
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 610 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 2170 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MkHTMPvW/ShopEasy.png",
+    "title": "Shop Easy",
     "companyName": "EcomLabs",
-    "id": 108,
+    "id": 8,
     "description": "One-stop shopping app for deals, fashion, and gadgets from top brands.",
     "size": 75,
     "reviews": 8300,
@@ -16,139 +149,6 @@
       { "name": "3 star", "count": 650 },
       { "name": "4 star", "count": 1750 },
       { "name": "5 star", "count": 5250 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1603791452906-bb6c1fbc05c9",
-    "title": "RideNow",
-    "companyName": "UrbanMove",
-    "id": 109,
-    "description": "Book rides instantly, track your driver, and enjoy seamless city travel.",
-    "size": 78,
-    "reviews": 4920,
-    "ratingAvg": 4.3,
-    "downloads": 4100000,
-    "platforms": ["Android", "iOS"],
-    "ratings": [
-      { "name": "1 star", "count": 220 },
-      { "name": "2 star", "count": 300 },
-      { "name": "3 star", "count": 720 },
-      { "name": "4 star", "count": 1400 },
-      { "name": "5 star", "count": 2280 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1590608897129-79da98d1592e",
-    "title": "Streamly",
-    "companyName": "VisionCloud",
-    "id": 110,
-    "description": "Watch movies and shows online with personalized recommendations and offline download support.",
-    "size": 120,
-    "reviews": 13800,
-    "ratingAvg": 4.8,
-    "downloads": 9400000,
-    "platforms": ["Android", "iOS"],
-    "ratings": [
-      { "name": "1 star", "count": 320 },
-      { "name": "2 star", "count": 430 },
-      { "name": "3 star", "count": 780 },
-      { "name": "4 star", "count": 2400 },
-      { "name": "5 star", "count": 9870 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1625314864229-18c604c3e2de",
-    "title": "MindEase",
-    "companyName": "CalmSpace",
-    "id": 111,
-    "description": "Meditation and relaxation app featuring guided audio, sleep sounds, and mood tracking.",
-    "size": 83,
-    "reviews": 3620,
-    "ratingAvg": 4.5,
-    "downloads": 2600000,
-    "platforms": ["Android", "iOS"],
-    "ratings": [
-      { "name": "1 star", "count": 160 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 430 },
-      { "name": "4 star", "count": 870 },
-      { "name": "5 star", "count": 1960 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1580910051073-bdf3e00b6e1f",
-    "title": "Eventify",
-    "companyName": "SocialHub",
-    "id": 112,
-    "description": "Discover events near you and book tickets instantly with social group support.",
-    "size": 61,
-    "reviews": 1890,
-    "ratingAvg": 4.3,
-    "downloads": 970000,
-    "platforms": ["Android", "iOS"],
-    "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 230 },
-      { "name": "4 star", "count": 570 },
-      { "name": "5 star", "count": 880 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1612832021053-0e9ce7e9fa6f",
-    "title": "HomeEase",
-    "companyName": "SmartHive",
-    "id": 113,
-    "description": "Smart home app that connects lights, locks, thermostats, and appliances in one dashboard.",
-    "size": 86,
-    "reviews": 2540,
-    "ratingAvg": 4.4,
-    "downloads": 1700000,
-    "platforms": ["Android", "iOS"],
-    "ratings": [
-      { "name": "1 star", "count": 130 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 320 },
-      { "name": "4 star", "count": 740 },
-      { "name": "5 star", "count": 1200 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3",
-    "title": "CryptoWatch",
-    "companyName": "BlockStream",
-    "id": 114,
-    "description": "Real-time cryptocurrency tracking and portfolio management with live alerts.",
-    "size": 79,
-    "reviews": 6300,
-    "ratingAvg": 4.6,
-    "downloads": 3800000,
-    "platforms": ["Android", "iOS"],
-    "ratings": [
-      { "name": "1 star", "count": 190 },
-      { "name": "2 star", "count": 240 },
-      { "name": "3 star", "count": 480 },
-      { "name": "4 star", "count": 1400 },
-      { "name": "5 star", "count": 3990 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692",
-    "title": "Taskly",
-    "companyName": "NextGen Tools",
-    "id": 115,
-    "description": "A collaborative to-do and project management app for teams and individuals.",
-    "size": 58,
-    "reviews": 5200,
-    "ratingAvg": 4.5,
-    "downloads": 2900000,
-    "platforms": ["Android", "iOS"],
-    "ratings": [
-      { "name": "1 star", "count": 170 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 480 },
-      { "name": "4 star", "count": 1220 },
-      { "name": "5 star", "count": 3130 }
     ]
   }
 ]

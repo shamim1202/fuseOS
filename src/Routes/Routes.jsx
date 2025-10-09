@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router";
 import AllApps from "../pages/AllApps/AllApps";
+import AppsDetails from "../pages/AppsDetails/AppsDetails";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Home from "../pages/Home/Home";
 import Root from "../pages/Root/Root";
@@ -17,10 +18,25 @@ export const router = createBrowserRouter([
         Component: Home,
       },
       {
-        path: "/apps",
+        path: "apps",
         loader: ()=> fetch("mainApps.json"),
         Component: AllApps
+      },
+      {
+        path: "apps_details/:id",
+        Component: AppsDetails
+      },
+      {
+        path: "apps/apps_details/:id",
+        Component: AppsDetails
       }
     ],
   },
 ]);
+
+/**
+ * https://i.ibb.co.com/7fnwW9N/App-Error.png
+https://i.ibb.co.com/kgsFzzBx/error-404.jpg
+https://i.ibb.co.com/9HBMrqvy/error-image-2.webp
+https://i.ibb.co.com/7dXq4D4N/fuse-OS-logo.png
+ */

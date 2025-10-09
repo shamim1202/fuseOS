@@ -13,7 +13,7 @@ const TrendingApps = ({ appsData }) => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 md:gap-2 md:my-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4 md:my-10">
         {appsData.map((app) => (
           <TrendingApp key={app.id} app={app}></TrendingApp>
         ))}

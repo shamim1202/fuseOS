@@ -1,15 +1,17 @@
 import { FaStar } from "react-icons/fa";
 import { RiDownload2Line } from "react-icons/ri";
+import { Link } from "react-router";
 import { formatDownloads } from "../../Utilities/ConvertDownload";
 
 const TrendingApp = ({ app }) => {
-  const {title, ratingAvg, downloads} = app
+  const {id, image, title, ratingAvg, downloads} = app
   return (
-    <div className="bg-white md:p-2 rounded shadow-md">
+    <Link to={`apps_details/${id}`}>
+      <div className="bg-white md:p-2 rounded shadow-md">
       <figure>
         <img
-          className="rounded"
-          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+          className="rounded md:p-5"
+          src={image}
           alt="Shoes"
         />
       </figure>
@@ -26,7 +28,8 @@ const TrendingApp = ({ app }) => {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </Link>
   );
 };
 
