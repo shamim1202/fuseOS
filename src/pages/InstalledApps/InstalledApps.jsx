@@ -5,11 +5,12 @@ import {
   FaSortAmountDownAlt,
 } from "react-icons/fa";
 import { useLoaderData } from "react-router";
-import { getStoredApps } from "../../Utilities/StoreData";
 import SingleApp from "../../components/SingleApp/SingleApp";
+import { getStoredApps } from "../../Utilities/StoreData";
 
 const InstalledApps = () => {
   const [installedApps, setInstalledApps] = useState([]);
+  const [sortType, setSortType] = useState(null);
   const appsData = useLoaderData();
 
   useEffect(() => {
@@ -18,6 +19,19 @@ const InstalledApps = () => {
     const data = appsData.filter((app) => dataParse.includes(app.id));
     setInstalledApps(data);
   }, []);
+
+  const handleSort = (type) => {
+    setSortType(type);
+
+    let sorted = [...installedApps];
+    if (type === "high") {
+      sorted.sort((a, b) => b.downloads - a.downloads);
+    } else if (type === "low") {
+      sorted.sort((a, b) => a.downloads - b.downloads);
+    }
+
+    setInstalledApps(sorted);
+  };
 
   return (
     <div className="md:p-20 bg-[#f5f5f5]">
@@ -47,12 +61,12 @@ const InstalledApps = () => {
             className="dropdown-content menu rounded-box z-1 w-36 p-2 shadow-sm bg-gray-100"
           >
             <li>
-              <a>
+              <a onClick={() => handleSort("high")}>
                 <FaSortAmountDown /> High-Low
               </a>
             </li>
             <li>
-              <a>
+              <a onClick={() => handleSort("low")}>
                 <FaSortAmountDownAlt /> Low-High
               </a>
             </li>
