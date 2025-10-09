@@ -107,8 +107,4 @@ const AppsDetails = () => {
 };
 
 export default AppsDetails;
-/**
- * https://i.ibb.co.com/SXDBYg09/icon-downloads.png
-https://i.ibb.co.com/RGnywcGC/icon-ratings.png
-https://i.ibb.co.com/MxXR5LNS/icon-review.png
- */
+

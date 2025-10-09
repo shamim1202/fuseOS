@@ -1,7 +1,12 @@
 import { useEffect, useState } from "react";
-import { FaCaretDown, FaSortAmountDown, FaSortAmountDownAlt } from "react-icons/fa";
+import {
+  FaCaretDown,
+  FaSortAmountDown,
+  FaSortAmountDownAlt,
+} from "react-icons/fa";
 import { useLoaderData } from "react-router";
 import { getStoredApps } from "../../Utilities/StoreData";
+import SingleApp from "../../components/SingleApp/SingleApp";
 
 const InstalledApps = () => {
   const [installedApps, setInstalledApps] = useState([]);
@@ -25,25 +30,40 @@ const InstalledApps = () => {
           from our platform in one easy-to-manage view.
         </p>
       </div>
-      <div className="flex items-center justify-between">
-        <h3 className="text-[#001931] md:text-xl font-bold">1 Apps Found</h3>
-        
+
+      <div className="flex items-center justify-between md:mb-4">
+        <h3 className="text-[#001931] md:text-xl font-bold">{`${installedApps.length} Apps Found`}</h3>
+
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn m-1 font-medium border border-gray-300">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn m-1 font-medium border border-gray-300"
+          >
             Sort By Size <FaCaretDown />
           </div>
           <ul
             tabIndex={0}
-            className="dropdown-content menu rounded-box z-1 w-36 p-2 shadow-sm"
+            className="dropdown-content menu rounded-box z-1 w-36 p-2 shadow-sm bg-gray-100"
           >
             <li>
-              <a><FaSortAmountDown /> High-Low</a>
+              <a>
+                <FaSortAmountDown /> High-Low
+              </a>
             </li>
             <li>
-              <a><FaSortAmountDownAlt /> Low-High</a>
+              <a>
+                <FaSortAmountDownAlt /> Low-High
+              </a>
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className="flex flex-col md:gap-3 ">
+        {installedApps.map((app) => (
+          <SingleApp key={app.id} app={app}></SingleApp>
+        ))}
       </div>
     </div>
   );
