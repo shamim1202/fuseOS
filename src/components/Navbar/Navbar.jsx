@@ -9,12 +9,10 @@ const Navbar = () => {
         <li>Home</li>
       </Link>
       <Link to="/apps">
-        <li><button className="btn btn-accent">All Apps</button></li>
+        <li>All Apps</li>
       </Link>
       <Link to="/installation">
-        <li>
-          <a>Installation</a>
-        </li>
+        <li>Installation</li>
       </Link>
     </>
   );
@@ -56,7 +54,8 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{links}</ul>
+        <ul className="menu menu-horizontal px-1 md:flex md:items-center md:gap-4 font-semibold text-[#000000e6]">{links}
+        </ul>
       </div>
 
       <div className="navbar-end ">

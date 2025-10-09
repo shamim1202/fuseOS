@@ -32,7 +32,8 @@ const ErrorPage = () => {
     //     </div>
     //   </div>
     </div> */}
-    <h1>Page Not Found</h1>
+    
+
     <Link to="/">
       <button>Go To Home</button>
     </Link>
