@@ -7,7 +7,9 @@
 ### 📅 Deadline For 30 marks: Any time after 10 October , 2025.
 
 ---
+
 ## Private Repo-Link : please create your own public repository for this assignment.
+
 ---
 
 # 🐣 Basic Requirements
@@ -138,9 +140,9 @@
 
 - Create a custom error page for invalid routes.
 
-- Show a loading animation during: `Challenge Part`  
+- Show a loading animation during: `Challenge Part`
 
-  - Page navigation. 
+  - Page navigation.
   - Search operation.
 
 - Show a Relevant Not Found message app not found in app details section.
@@ -181,8 +183,8 @@
 
 ### Loading Animation
 
-- Show a loading animation during: 
-  - Page navigation. 
+- Show a loading animation during:
+  - Page navigation.
   - Search operation
 
 ---

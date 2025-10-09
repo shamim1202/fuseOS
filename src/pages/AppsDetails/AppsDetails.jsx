@@ -4,6 +4,7 @@ import {
   formatFileSize,
 } from "../../Utilities/ConvertDownload";
 import { addAppsToStore } from "../../Utilities/StoreData";
+import RatingChart from "../../components/RatingChart/RatingChart";
 
 const AppsDetails = () => {
   const { id } = useParams();
@@ -94,6 +95,7 @@ const AppsDetails = () => {
       {/* ----------- Graph ---------- */}
       <div className="md:py-8 border-b border-gray-300">
         <h3 className="md:text-lg font-bold md:mb-2">Ratings</h3>
+        <RatingChart ratings={ratings}></RatingChart>
       </div>
 
       <div className="md:mt-8">
