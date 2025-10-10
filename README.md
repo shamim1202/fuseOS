@@ -28,7 +28,7 @@ The platform emphasizes **user experience**, **real-time feedback**, and **respo
 
 ## Technologies Used
 
-- **Frontend:** React.js, Tailwind CSS, React Router
+- **Frontend:** React.js, Tailwind CSS, DaisyUI, React Router
 - **State Management:** useState, useEffect, localStorage for persistence
 - **Charts & Visualization:** Recharts, Framer Motion
 - **Icons:** react-icons, other png images and Stickers.
