@@ -59,7 +59,7 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end ">
-        <a href="https://github.com/shamim1202" className="btn bg-linear-to-r from-[#8AD63F] to-[#353BA2] text-white text-sm md:text-base" target="_blank">
+        <a href="https://github.com/shamim1202" className="btn bg-[#66C23F] hover:bg-[#353BA2] text-white text-sm md:text-base font-medium" target="_blank">
           <BsGithub /> Contribute
         </a>
       </div>

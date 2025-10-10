@@ -5,10 +5,10 @@ const Status = () => {
         Trusted By Millions, Built For You
       </h3>
 
-      <div className="flex flex-row items-center gap-4 md:gap-0 space-y-2 md:space-y-0 px-4 md:px-0">
+      <div className="flex flex-row items-center justify-evenly gap-4 md:gap-0 space-y-2 md:space-y-0 px-4 md:px-0">
         {/* -------- Download Status --------- */}
         <div className="flex flex-col items-center justify-center text-center md:space-y-4">
-          <p className="text-xs md:text-base">Total Downloads</p>
+          <p className="text-xs md:text-lg">Total Downloads</p>
           <h1 className="text-2xl md:text-6xl font-semibold md:font-extrabold">
             34.6M
           </h1>
@@ -17,7 +17,7 @@ const Status = () => {
 
         {/* -------- Reviews Status --------- */}
           <div className="flex flex-col items-center justify-center text-center md:space-y-4">
-            <p className="text-xs md:text-base">Total Reviews</p>
+            <p className="text-xs md:text-lg">Total Reviews</p>
             <h1 className="text-2xl md:text-6xl font-semibold md:font-extrabold">
               957K
             </h1>
@@ -26,7 +26,7 @@ const Status = () => {
 
         {/* -------- Active Apps Status --------- */}
           <div className="flex flex-col items-center justify-center text-center md:space-y-4">
-            <p className="text-xs md:text-base">Active Apps</p>
+            <p className="text-xs md:text-lg">Active Apps</p>
             <h1 className="text-2xl md:text-6xl font-semibold md:font-extrabold">
               144+
             </h1>

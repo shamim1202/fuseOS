@@ -15,24 +15,24 @@ const SingleApp = ({ app, onUninstall }) => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between bg-white shadow-sm md:p-4 rounded">
-      <div className="flex items-center md:gap-4">
-        <img className="md:w-14 rounded" src={image} alt={title} />
+    <div className="flex flex-row items-center justify-between bg-white shadow-sm p-2 md:p-4 rounded">
+      <div className="flex flex-row items-center gap-2 md:gap-4">
+        <img className="w-10 md:w-14 rounded" src={image} alt={title} />
 
         <div className="md:space-y-1">
           <h3 className="md:text-lg font-semibold text-[#001931]">{title}</h3>
 
           {/* ------ status div ------- */}
-          <div className="flex items-center gap-4">
-            <div className="flex items-center justify-center gap-2 text-[#00d390]">
+          <div className="flex items-center gap-3 md:gap-4">
+            <div className="flex flex-row items-center justify-center gap-1 md:gap-2 text-[#00d390] text-sm md:text-base">
               <RiDownload2Line /> {formatDownloads(downloads)}
             </div>
 
-            <div className="flex items-center justify-center gap-2 text-[#ff8811]">
+            <div className="flex flex-row items-center justify-center gap-1 md:gap-2 text-[#ff8811] text-sm md:text-base">
               <FaStar /> {ratingAvg}
             </div>
 
-            <p>{formatFileSize(size)}</p>
+            <p className="text-sm md:text-base">{formatFileSize(size)}</p>
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@ const SingleApp = ({ app, onUninstall }) => {
       {/* ---------- Uninstall button --------- */}
       <button
         onClick={handleUninstall}
-        className="btn btn-error text-white font-medium w-full md:w-auto"
+        className="btn btn-error btn-xs md:btn-md text-white font-medium"
       >
         Uninstall
       </button>

@@ -39,8 +39,8 @@ const InstalledApps = () => {
   };
 
   return (
-    <div className="md:p-20 bg-[#f5f5f5]">
-      <div className="text-center md:mb-6">
+    <div className="p-4 md:p-20 bg-[#f5f5f5]">
+      <div className="text-center my-4 md:mb-6">
         <h3 className="text-xl md:text-4xl font-bold text-[#001931] mb-2 md:mb-4">
           Your Installed Apps
         </h3>
@@ -57,7 +57,7 @@ const InstalledApps = () => {
           <div
             tabIndex={0}
             role="button"
-            className="btn m-1 font-medium border border-gray-300"
+            className="btn btn-xs md:btn-md p-3 md:p-4 m-1 font-medium border border-gray-300"
           >
             Sort By Size <FaCaretDown />
           </div>
@@ -79,7 +79,7 @@ const InstalledApps = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:gap-3 ">
+      <div className="flex flex-col gap-3">
         {installedApps.map((app) => (
           <SingleApp
             key={app.id}
