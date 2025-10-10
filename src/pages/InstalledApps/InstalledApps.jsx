@@ -33,6 +33,11 @@ const InstalledApps = () => {
     setInstalledApps(sorted);
   };
 
+  const handleUninstall = (id) => {
+    const updated = installedApps.filter((app) => app.id !== id);
+    setInstalledApps(updated);
+  };
+
   return (
     <div className="md:p-20 bg-[#f5f5f5]">
       <div className="text-center md:mb-6">
@@ -76,7 +81,11 @@ const InstalledApps = () => {
 
       <div className="flex flex-col md:gap-3 ">
         {installedApps.map((app) => (
-          <SingleApp key={app.id} app={app}></SingleApp>
+          <SingleApp
+            key={app.id}
+            app={app}
+            onUninstall={handleUninstall}
+          ></SingleApp>
         ))}
       </div>
     </div>

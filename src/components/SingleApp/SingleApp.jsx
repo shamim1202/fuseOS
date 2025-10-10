@@ -4,9 +4,16 @@ import {
   formatDownloads,
   formatFileSize,
 } from "../../Utilities/ConvertDownload";
+import { removeAppFromStore } from "../../Utilities/StoreData";
 
-const SingleApp = ({ app }) => {
-  const { image, title, ratingAvg, size, downloads } = app;
+const SingleApp = ({ app, onUninstall }) => {
+  const { id,image, title, ratingAvg, size, downloads } = app;
+
+  const handleUninstall = () => {
+    removeAppFromStore(id); // remove from localStorage
+    onUninstall(id); // update parent state
+  };
+
   return (
     <div className="flex flex-col md:flex-row items-center justify-between bg-white shadow-sm md:p-4 rounded">
       <div className="flex items-center md:gap-4">
@@ -30,7 +37,7 @@ const SingleApp = ({ app }) => {
         </div>
       </div>
 
-      <button className="btn btn-error text-white font-medium w-full md:w-auto">
+      <button onClick={handleUninstall} className="btn btn-error text-white font-medium w-full md:w-auto">
         Uninstall
       </button>
     </div>

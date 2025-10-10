@@ -31,11 +31,27 @@ const addAppsToStore = (id) => {
     localStorage.setItem("installedApps", data);
     MySwal.fire({
       title: "Success!",
-      text: "Application Install Successfully",
+      text: "Application Install Successfull",
       icon: "success",
       confirmButtonText: "OK",
     });
   }
 };
 
-export { addAppsToStore, getStoredApps };
+const removeAppFromStore = (id) => {
+  const stored = localStorage.getItem("installedApps");
+  if (!stored) return;
+
+  const appsId = JSON.parse(stored);
+  const updated = appsId.filter((app) => app !== id);
+  const converted = JSON.stringify(updated);
+  localStorage.setItem("installedApps", converted);
+  MySwal.fire({
+    title: "Success!",
+    text: "Application Uninstall Successfull",
+    icon: "success",
+    confirmButtonText: "OK",
+  });
+};
+
+export { addAppsToStore, getStoredApps, removeAppFromStore };
