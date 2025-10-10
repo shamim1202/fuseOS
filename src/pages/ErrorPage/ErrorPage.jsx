@@ -1,11 +1,14 @@
 import { FaArrowLeft } from "react-icons/fa";
 import { Link } from "react-router";
+import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
 
 const ErrorPage = () => {
   return (
     <>
       <div>
-        <div className="md:h-[100vh] bg-white items-center flex justify-center px-5 lg:px-0 mt-10 md:mt-0">
+        <Navbar></Navbar>
+        <div className="md:h-[100vh] bg-[#f5f5f5] items-center flex justify-center px-5 lg:px-0 py-10 md:mt-0">
           <div className="md:w-[800px] text-center flex-col items-center justify-center mx-auto gap-[100px]">
             <div className="mb-8 md:mb-[56px]">
               <div className="max-w-[312px] w-full h-[160px] relative flex justify-center items-center mx-auto">
@@ -37,9 +40,11 @@ const ErrorPage = () => {
             </div>
           </div>
         </div>
+        <Footer></Footer>
       </div>
     </>
   );
 };
 
 export default ErrorPage;
+      

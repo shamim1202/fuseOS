@@ -1,19 +1,44 @@
 import { BsGithub } from "react-icons/bs";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import logo from "../../assets/fuseOS-logo.png";
 
 const Navbar = () => {
   const links = (
     <>
-      <Link to="/">
+      <NavLink
+        to="/"
+        end
+        className={({ isActive }) =>
+          isActive
+            ? "text-[#66C23F] font-bold border-b-2 border-[#66C23F]"
+            : "hover:text-[#66C23F]"
+        }
+      >
         <li>Home</li>
-      </Link>
-      <Link to="/apps">
+      </NavLink>
+
+      <NavLink
+        to="/apps"
+        end
+        className={({ isActive }) =>
+          isActive
+            ? "text-[#66C23F] font-bold border-b-2 border-[#66C23F]"
+            : "hover:text-[#66C23F]"
+        }
+      >
         <li>All Apps</li>
-      </Link>
-      <Link to="/apps/installed_apps">
+      </NavLink>
+
+      <NavLink
+        to="/apps/installed_apps"
+        className={({ isActive }) =>
+          isActive
+            ? "text-[#66C23F] font-bold border-b-2 border-[#66C23F]"
+            : "hover:text-[#66C23F]"
+        }
+      >
         <li>Installation</li>
-      </Link>
+      </NavLink>
     </>
   );
 
@@ -54,12 +79,17 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 md:flex md:items-center md:gap-4 font-semibold text-[#000000e6]">{links}
+        <ul className="menu menu-horizontal px-1 md:flex md:items-center md:gap-4 font-semibold text-[#000000e6]">
+          {links}
         </ul>
       </div>
 
       <div className="navbar-end ">
-        <a href="https://github.com/shamim1202" className="btn bg-[#66C23F] hover:bg-[#353BA2] text-white text-sm md:text-base font-medium" target="_blank">
+        <a
+          href="https://github.com/shamim1202"
+          className="btn bg-[#66C23F] hover:bg-[#353BA2] text-white text-sm md:text-base font-medium"
+          target="_blank"
+        >
           <BsGithub /> Contribute
         </a>
       </div>

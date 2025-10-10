@@ -1,12 +1,14 @@
+import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import {
   formatDownloads,
   formatFileSize,
 } from "../../Utilities/ConvertDownload";
-import { addAppsToStore } from "../../Utilities/StoreData";
+import { addAppsToStore, getStoredApps } from "../../Utilities/StoreData";
 import RatingChart from "../../components/RatingChart/RatingChart";
 
 const AppsDetails = () => {
+  const [isInstalled, setIsInstalled] = useState(false);
   const { id } = useParams();
   const appId = parseInt(id);
   const appsData = useLoaderData();
@@ -23,8 +25,14 @@ const AppsDetails = () => {
     ratings,
   } = singleApp;
 
+  useEffect(() => {
+    const installedApps = getStoredApps().map((id) => parseInt(id));
+    if (installedApps.includes(appId)) setIsInstalled(true);
+  }, [appId]);
+
   const installApps = (id) => {
     addAppsToStore(id);
+    setIsInstalled(true);
   };
 
   return (
@@ -60,7 +68,7 @@ const AppsDetails = () => {
                 {formatDownloads(downloads)}
               </h3>
             </div>
-            
+
             {/* -------- Ratings --------- */}
             <div className="space-y-2">
               <img
@@ -68,7 +76,9 @@ const AppsDetails = () => {
                 src="https://i.ibb.co.com/RGnywcGC/icon-ratings.png"
                 alt=""
               />
-              <p className="text-[#001931] text-xs md:text-sm">Average Ratings</p>
+              <p className="text-[#001931] text-xs md:text-sm">
+                Average Ratings
+              </p>
               <h3 className="text-[#001931] text-xl md:text-4xl font-bold md:font-extrabold leading-4 md:leading-8">
                 {ratingAvg}
               </h3>
@@ -89,8 +99,17 @@ const AppsDetails = () => {
 
           <button
             onClick={() => installApps(id)}
-            className="btn bg-[#66C23F] hover:bg-[#353BA2] text-white font-medium w-full md:w-auto"
-          >{`Install Now (${formatFileSize(size)})`}</button>
+            disabled={isInstalled}
+            className={`btn ${
+              isInstalled
+                ? "btn-success opacity-50 cursor-not-allowed"
+                : "bg-[#66C23F] hover:bg-[#353BA2]"
+            } text-black font-medium w-full md:w-auto`}
+          >
+            {isInstalled
+              ? "Installed"
+              : `Install Now (${formatFileSize(size)})`}
+          </button>
         </div>
       </div>
 
