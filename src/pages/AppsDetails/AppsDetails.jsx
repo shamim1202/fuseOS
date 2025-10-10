@@ -21,15 +21,15 @@ const AppsDetails = () => {
     ratingAvg,
     downloads,
     ratings,
-    platforms,
   } = singleApp;
 
   const installApps = (id) => {
-    addAppsToStore(id)
+    addAppsToStore(id);
   };
 
   return (
     <div className="md:p-20 bg-[#f5f5f5]">
+      {/* ----------- Apps Details */}
       <div className="flex items-center gap-4 md:gap-10 border-b border-gray-300 md:pb-8">
         <figure className="bg-white md:p-4">
           <img src={image} alt="" />
@@ -47,7 +47,7 @@ const AppsDetails = () => {
           </div>
 
           <div className="flex items-center md:gap-10  md:py-4">
-            {/* ---- Downloads ---- */}
+            {/* ------- Downloads -------- */}
             <div className="space-y-2">
               <img
                 className="h-3 md:h-6"
@@ -59,7 +59,7 @@ const AppsDetails = () => {
                 {formatDownloads(downloads)}
               </h3>
             </div>
-            {/* ---- Ratings ---- */}
+            {/* -------- Ratings --------- */}
             <div className="space-y-2">
               <img
                 className="h-3 md:h-6"
@@ -71,7 +71,7 @@ const AppsDetails = () => {
                 {ratingAvg}
               </h3>
             </div>
-            {/* ---- Reviews ---- */}
+            {/* -------- Reviews --------- */}
             <div className="space-y-2">
               <img
                 className="h-3 md:h-6"
@@ -92,12 +92,13 @@ const AppsDetails = () => {
         </div>
       </div>
 
-      {/* ----------- Graph ---------- */}
+      {/* ----------- Recharts Graph ---------- */}
       <div className="md:py-8 border-b border-gray-300">
         <h3 className="md:text-lg font-bold md:mb-2">Ratings</h3>
         <RatingChart ratings={ratings}></RatingChart>
       </div>
 
+      {/* ------------ Apps Description ------------ */}
       <div className="md:mt-8">
         <h3 className="md:text-lg font-bold md:mb-2">Description</h3>
         <p className="text-sm md:text-base text-justify text-[#001931] leading-7">
@@ -109,4 +110,3 @@ const AppsDetails = () => {
 };
 
 export default AppsDetails;
-

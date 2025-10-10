@@ -1,8 +1,26 @@
+import { useState } from "react";
 import { useLoaderData } from "react-router";
 import TrendingApp from "../../components/TrendingApp/TrendingApp";
 
 const AllApps = () => {
   const appsData = useLoaderData();
+
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredApps, setFilteredApps] = useState(appsData);
+
+  const handleSearch = (e) => {
+    const value = e.target.value.toLowerCase();
+    setSearchTerm(value);
+
+    // Filter apps by title or company name
+    const filtered = appsData.filter(
+      (app) =>
+        app.title.toLowerCase().includes(value) ||
+        app.companyName.toLowerCase().includes(value)
+    );
+    setFilteredApps(filtered);
+  };
+
   return (
     <div className="md:p-20 bg-[#f5f5f5]">
       <div className="text-center md:mb-6">
@@ -14,12 +32,12 @@ const AllApps = () => {
         </p>
       </div>
 
-      <div className="flex items-center justify-between md:mb-3">
+      <div className="flex items-center justify-between md:mb-4">
         <h5 className="text-sm md:text-base font-bold text-[#001931]">
-          {`(${appsData.length})`} Apps Found
+          ({filteredApps.length}) Apps Found
         </h5>
 
-        {/* Search Input */}
+        {/* ---------- Search Input ----------- */}
         <label className="input input-sm bg-transparent text-xs md:text-sm">
           <svg
             className="h-[1em] opacity-50"
@@ -37,13 +55,14 @@ const AllApps = () => {
               <path d="m21 21-4.3-4.3"></path>
             </g>
           </svg>
-          <input type="search" required placeholder="Search Apps" />
+          <input type="search" placeholder="Search Apps" value={searchTerm}
+            onChange={handleSearch}/>
         </label>
-        
       </div>
 
+      {/* ---------- All Apps via mapping ---------- */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4">
-        {appsData.map((app) => (
+        {filteredApps.map((app) => (
           <TrendingApp key={app.id} app={app}></TrendingApp>
         ))}
       </div>

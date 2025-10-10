@@ -3,6 +3,7 @@ import withReactContent from "sweetalert2-react-content";
 
 const MySwal = withReactContent(Swal);
 
+// Get Item From Local Storage --------------------->
 const getStoredApps = () => {
   const storedApps = localStorage.getItem("installedApps");
 
@@ -14,6 +15,7 @@ const getStoredApps = () => {
   }
 };
 
+// Add/Set Item To Local Storage --------------------->
 const addAppsToStore = (id) => {
   const storedAppsData = getStoredApps();
 
@@ -38,6 +40,7 @@ const addAppsToStore = (id) => {
   }
 };
 
+// Remove Item From Local Storage --------------------->
 const removeAppFromStore = (id) => {
   const stored = localStorage.getItem("installedApps");
   if (!stored) return;

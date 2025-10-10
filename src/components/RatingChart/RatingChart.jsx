@@ -12,8 +12,6 @@ import {
 const RatingChart = ({ ratings }) => {
   if (!ratings || ratings.length === 0) return null;
 
-  // Transform the ratings array if needed
-  // Example: [{name: "1 star", count: 300}, ...] is already usable by Recharts
   const chartData = ratings.map((r) => ({
     name: r.name,
     count: r.count,

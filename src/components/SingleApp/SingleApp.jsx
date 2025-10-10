@@ -7,7 +7,7 @@ import {
 import { removeAppFromStore } from "../../Utilities/StoreData";
 
 const SingleApp = ({ app, onUninstall }) => {
-  const { id,image, title, ratingAvg, size, downloads } = app;
+  const { id, image, title, ratingAvg, size, downloads } = app;
 
   const handleUninstall = () => {
     removeAppFromStore(id); // remove from localStorage
@@ -37,7 +37,11 @@ const SingleApp = ({ app, onUninstall }) => {
         </div>
       </div>
 
-      <button onClick={handleUninstall} className="btn btn-error text-white font-medium w-full md:w-auto">
+      {/* ---------- Uninstall button --------- */}
+      <button
+        onClick={handleUninstall}
+        className="btn btn-error text-white font-medium w-full md:w-auto"
+      >
         Uninstall
       </button>
     </div>

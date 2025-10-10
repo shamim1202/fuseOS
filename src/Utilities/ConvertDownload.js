@@ -1,3 +1,4 @@
+// Convert File By Dowoloads --------------------->
 function formatDownloads(num) {
   if (num >= 1_000_000_000) {
     return (num / 1_000_000_000).toFixed(1).replace(/\.0$/, "") + "B";
@@ -9,6 +10,7 @@ function formatDownloads(num) {
   return num.toString();
 }
 
+// Convert File By Size --------------------->
 function formatFileSize(bytes) {
   if (bytes === 0 || isNaN(bytes)) return "0 B";
 
