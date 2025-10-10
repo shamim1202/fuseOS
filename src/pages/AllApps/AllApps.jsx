@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { BiError } from "react-icons/bi";
 import { useLoaderData } from "react-router";
+import Loading from "../../components/Loading/Loading";
 import TrendingApp from "../../components/TrendingApp/TrendingApp";
 
 const AllApps = () => {
@@ -72,11 +73,16 @@ const AllApps = () => {
 
       {/* ---------- All Apps via mapping ---------- */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-5">
-        {filteredApps.length > 0 ? (
+        {loading ? (
+          <div className="col-span-full flex justify-center py-10">
+            <Loading />
+          </div>
+        ) : filteredApps.length > 0 ? (
           filteredApps.map((app) => (
             <TrendingApp key={app.id} app={app}></TrendingApp>
           ))
         ) : (
+          // highlight: show No Apps Found when search returns empty
           <div className="flex flex-col items-center gap-2 md:gap-4 col-span-full text-center py-10 bg-white text-amber-500 text-4xl md:text-6xl font-bold rounded">
             <BiError />{" "}
             <span className="text-base md:text-2xl font-medium">
@@ -92,6 +98,27 @@ const AllApps = () => {
 export default AllApps;
 
 /**
+ * 
+ * {loading ? (
+          // highlight: show Loading component when search is in progress
+          <div className="col-span-full flex justify-center py-10">
+            <Loading /> 
+          </div>
+        ) : filteredApps.length > 0 ? (
+          filteredApps.map((app) => (
+            <TrendingApp key={app.id} app={app}></TrendingApp>
+          ))
+        ) : (
+          // highlight: show No Apps Found when search returns empty
+          <div className="flex flex-col items-center gap-2 md:gap-4 col-span-full text-center py-10 bg-white text-amber-500 text-4xl md:text-6xl font-bold rounded">
+            <BiError />{" "}
+            <span className="text-base md:text-2xl font-medium">
+              No Apps Found
+            </span>
+          </div>
+        )}
+ * 
+ * 
  * {filteredApps.map((app) => (
           <TrendingApp key={app.id} app={app}></TrendingApp>
         ))}

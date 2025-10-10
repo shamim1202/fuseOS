@@ -1,6 +1,5 @@
 import { BsGithub } from "react-icons/bs";
 import { Link, NavLink } from "react-router";
-import logo from "../../assets/fuseOS-logo.png";
 
 const Navbar = () => {
   const links = (
@@ -43,7 +42,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar md:px-20">
+    <div className="navbar py-3 md:py-0 md:px-20">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -71,7 +70,12 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/" className="flex flex-row items-center justify-center">
-          <img className="w-10 md:w-14" src={logo} alt="" srcset="" />
+          <img
+            className="w-10 md:w-14"
+            src="https://i.ibb.co.com/Zz3Fnjxx/fuse-OS-logo.png"
+            alt=""
+            srcset=""
+          />
           <span className="md:text-xl font-bold bg-linear-to-r from-[#353BA2] to-[#8AD63F] bg-clip-text text-transparent">
             fuseOS
           </span>
