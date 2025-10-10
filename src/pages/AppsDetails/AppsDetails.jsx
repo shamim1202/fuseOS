@@ -104,7 +104,7 @@ const AppsDetails = () => {
               isInstalled
                 ? "btn-success opacity-50 cursor-not-allowed"
                 : "bg-[#66C23F] hover:bg-[#353BA2]"
-            } text-black font-medium w-full md:w-auto`}
+            } text-white font-medium w-full md:w-auto`}
           >
             {isInstalled
               ? "Installed"
