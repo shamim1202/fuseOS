@@ -3,6 +3,7 @@ import heroImg from "../../assets/hero.png";
 const Banner = () => {
   return (
     <div className="bg-[#f5f5f5] pt-8 md:pt-0 px-4 md:px-0">
+      
       <div className="md:w-3xl md:mx-auto text-center">
         <h1 className="text-4xl md:text-6xl font-bold opacity-85 py-4 md:py-8 md:leading-16">
           One Platform To
