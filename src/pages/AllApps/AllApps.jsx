@@ -8,18 +8,23 @@ const AllApps = () => {
 
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredApps, setFilteredApps] = useState(appsData);
+  const [loading, setLoading] = useState(false);
 
   const handleSearch = (e) => {
     const value = e.target.value.toLowerCase();
     setSearchTerm(value);
+    setLoading(true);
 
     // Filter apps by title or company name
-    const filtered = appsData.filter(
-      (app) =>
-        app.title.toLowerCase().includes(value) ||
-        app.companyName.toLowerCase().includes(value)
-    );
-    setFilteredApps(filtered);
+    setTimeout(() => {
+      const filtered = appsData.filter(
+        (app) =>
+          app.title.toLowerCase().includes(value) ||
+          app.companyName.toLowerCase().includes(value)
+      );
+      setFilteredApps(filtered);
+      setLoading(false);
+    }, 300);
   };
 
   return (
@@ -73,7 +78,10 @@ const AllApps = () => {
           ))
         ) : (
           <div className="flex flex-col items-center gap-2 md:gap-4 col-span-full text-center py-10 bg-white text-amber-500 text-4xl md:text-6xl font-bold rounded">
-            <BiError /> <span className="text-base md:text-2xl font-medium">No Apps Found</span>
+            <BiError />{" "}
+            <span className="text-base md:text-2xl font-medium">
+              No Apps Found
+            </span>
           </div>
         )}
       </div>
